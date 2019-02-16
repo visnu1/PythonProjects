@@ -1,5 +1,15 @@
 import math
 import random
+import time
+import sys
+
+import numpy as ny
+
+
+class RowColumnError(Exception):  # inheritance of superclass Exception
+
+    def __init__(self, arg):
+        self.args = arg
 
 
 class Utility:
@@ -73,6 +83,40 @@ class Utility:
         else:
             raise ValueError("Illegal arguments")
 
-    # @staticmethod
-    # def stopwatch():
+    @staticmethod
+    def stopwatch():
 
+        loop = False
+        start = time.time()  # to get the current time in ticks
+        while not loop:
+            time.sleep(5)  # To wait for sometime by the sleep method
+            user_input = input("Stop [Y/N}: ")  # asking the user to weather to stop
+            if user_input in ('y', 'Y'):
+                loop = True  # to exit out of the while loop
+                stop = time.time()
+
+        print("Elapsed time %d secs" % (stop - start))  # to print the elapsed time
+
+    @staticmethod
+    def two_d_array(row, column):
+
+        if row < column or row == column == 0:
+            raise RowColumnError("Provide a proper inputs for row and column")
+        else:
+            array = [[0 for i in range(row)] for j in range(column)]  # arr with m rows and n columns
+
+            for i in range(row):
+                for j in range(column):
+                    array[i][j] = input("Enter an element to be stored: ")  # accepting all the elements from the user
+
+            # initialising a string
+            str = ""
+            # for looping the multidimensional array to access all the elements
+            for i in range(row):  # for looping each row
+                for j in range(column):  # for looping each column in a row
+                    str += "%s  " % (array[i][j])
+                str += "\n"
+            print(str)  # for printing the string
+
+            # array1 = ny.array(array)  # numpy is used for multidimensional arrays
+            # print(array1)  # printing the array elements
