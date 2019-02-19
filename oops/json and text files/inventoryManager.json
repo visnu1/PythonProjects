@@ -1,0 +1,53 @@
+{
+    "rice": [
+        {
+            "name": "baagamathi",
+            "weight": 10,
+            "price": 52
+        },
+        {
+            "name": "basmati",
+            "weight": 15,
+            "price": 48
+        },
+        {
+            "name": "brown rice",
+            "weight": 5,
+            "price": 94
+        }
+    ],
+    "wheat": [
+        {
+            "name": "annapurna",
+            "weight": 8,
+            "price": 11
+        },
+        {
+            "name": "ashirvad",
+            "weight": 4,
+            "price": 13
+        },
+        {
+            "name": "emmer",
+            "weight": 2,
+            "price": 22
+        }
+    ],
+    "pulses": [
+        {
+            "name": "beans",
+            "weight": 2,
+            "price": 5
+        },
+        {
+            "name": "Cowpeas",
+            "weight": 3,
+            "price": 10
+        },
+        {
+            "name": "chickpeas",
+            "weight": 1,
+            "price": 19
+        }
+    ]
+}

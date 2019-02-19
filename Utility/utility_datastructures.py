@@ -126,7 +126,7 @@ class Stack:
         if self.size == 0:
             return None
         self.size -= 1
-        return self.arr.pop(self.size - 1)
+        return self.arr.pop()
 
     def peek(self):
         if self.size == 0:
@@ -161,7 +161,42 @@ class Queue:
     def peek(self):
         if self.size == 0:
             return None
-        return self.arr[self.size - 1]
+        return self.arr[0]
+
+    def is_empty(self):
+        return self.size == 0
+
+    def get_size(self):
+        return self.size
+
+
+class DeQueue:
+
+    def __init__(self):
+        self.arr = []
+        self.size = 0
+
+    def add_front(self, item):
+        self.arr.append(item)
+        self.size += 1
+
+    def add_rear(self, item):
+        self.arr.insert(0, item)
+        self.size += 1
+
+    def remove_front(self):
+        if self.size is 0:
+            return None
+        self.size -= 1
+        return self.arr.pop()
+
+    def remove_rear(self):
+        if self.size == 0:
+            return None
+        self.size -= 1
+        del_element = self.arr[0]
+        del self.arr[0]
+        return del_element
 
     def is_empty(self):
         return self.size == 0
