@@ -1,3 +1,14 @@
+"""
+# ******************************************************************************
+
+#  Purpose        : To perform inventory manager calculations by reading json files
+#  @file          : inventory_manager.py
+#  @author        : vishnu <vishnu840ranjan@gmail.com>
+#  @version       : python 3.5
+#  @since         : 16/02/2019
+
+# ******************************************************************************
+"""
 from Utility.utility_oops import Oops
 import json
 import traceback

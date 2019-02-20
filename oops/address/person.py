@@ -14,11 +14,11 @@ class Person:
     def set_address(self, address):
         self.__address = address
 
-    def get_state(self):
+    def get_first_name(self):
         return self.__first_name
 
-    def get_city(self):
+    def get_last_name(self):
         return self.__last_name
 
-    def get_zip(self):
+    def get_address(self):
         return self.__address

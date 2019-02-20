@@ -1,23 +1,24 @@
 from abc import ABCMeta, abstractmethod
 
-class AddressBookInterface(object):
 
-    _metaclass_ = ABCMeta
-
-    @abstractmethod
-    def operation(self):pass
+# Interface
+class AddressBook(object):
+    __metaclass__ = ABCMeta
 
     @abstractmethod
-    def add(self):pass
+    def operation(self): pass
 
     @abstractmethod
-    def edit(self):pass
+    def add(self): pass
 
     @abstractmethod
-    def delete(self):pass
+    def edit(self): pass
 
     @abstractmethod
-    def sort_by_name(self):pass
+    def delete(self): pass
 
     @abstractmethod
-    def sort_by_zip(self):pass
+    def sort_by_name(self): pass
+
+    @abstractmethod
+    def sort_by_zip(self): pass
