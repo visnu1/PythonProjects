@@ -1,3 +1,15 @@
+"""
+# ******************************************************************************
+
+#  Purpose        : To check if the two given strings are anagram
+#
+#  @file          : two_d_array.py
+#  @author        : vishnu <vishnu840ranjan@gmail.com>
+#  @version       : python 3.5
+#  @since         : 19/02/2019
+
+# ******************************************************************************
+"""
 from Utility.utility_algorithms import UtiltityAlgorithms
 
 util = UtiltityAlgorithms()

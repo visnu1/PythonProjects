@@ -1,3 +1,15 @@
+"""
+# ******************************************************************************
+
+#  Purpose        : To convert the given decimal number into binary
+#
+#  @file          : to_binary.py
+#  @author        : vishnu <vishnu840ranjan@gmail.com>
+#  @version       : python 3.5
+#  @since         : 17/02/2019
+
+# ******************************************************************************
+"""
 import traceback
 
 from Utility.utility_algorithms import UtiltityAlgorithms
