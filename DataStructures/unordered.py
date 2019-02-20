@@ -1,3 +1,15 @@
+"""
+# ******************************************************************************
+
+#  Purpose        : To read elements from a file and perform
+#                   insert or delete the element depending on the availability using linked list
+#  @file          : unordered.py
+#  @author        : vishnu <vishnu840ranjan@gmail.com>
+#  @version       : python 3.5
+#  @since         : 16/02/2019
+
+# ******************************************************************************
+"""
 from Utility.utility_datastructures import LinkedList
 
 

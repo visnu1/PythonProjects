@@ -1,3 +1,15 @@
+"""
+# ******************************************************************************
+
+#  Purpose        : To simulate a banking system where in checks if the bank
+#                   has maintained a proper balance at the end of the day
+#  @file          : banking_cash_counter.py
+#  @author        : vishnu <vishnu840ranjan@gmail.com>
+#  @version       : python 3.5
+#  @since         : 17/02/2019
+
+# ******************************************************************************
+"""
 from Utility.utility_datastructures import Queue
 
 import math

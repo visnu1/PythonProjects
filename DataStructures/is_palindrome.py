@@ -1,3 +1,15 @@
+"""
+# ******************************************************************************
+
+#  Purpose        : To check if the given string is palindrome using DeQueue
+#
+#  @file          : is_palindrome.py
+#  @author        : vishnu <vishnu840ranjan@gmail.com>
+#  @version       : python 3.5
+#  @since         : 16/02/2019
+
+# ******************************************************************************
+"""
 from Utility.utility_datastructures import DeQueue
 
 

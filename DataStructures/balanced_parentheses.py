@@ -1,3 +1,15 @@
+"""
+# ******************************************************************************
+
+#  Purpose        : To check if the given mathematical expression is balanced or not
+#
+#  @file          : balanced_parentheses.py
+#  @author        : vishnu <vishnu840ranjan@gmail.com>
+#  @version       : python 3.5
+#  @since         : 17/02/2019
+
+# ******************************************************************************
+"""
 from Utility.utility_datastructures import Stack
 
 
