@@ -1,3 +1,15 @@
+"""
+# ******************************************************************************
+
+#  Purpose        : To replace the string using the given string
+#
+#  @file          : stopwatch.py
+#  @author        : vishnu <vishnu840ranjan@gmail.com>
+#  @version       : python 3.5
+#  @since         : 24/01/2019
+
+# ******************************************************************************
+"""
 from Utility.utility_functional import Utility
 
 # Initialisation of utility class

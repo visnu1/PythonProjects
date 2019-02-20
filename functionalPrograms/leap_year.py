@@ -1,3 +1,14 @@
+"""
+# ******************************************************************************
+
+#  Purpose        : To determine the if the given year is leap year
+#  @file          : leap_year.py
+#  @author        : vishnu <vishnu840ranjan@gmail.com>
+#  @version       : python 3.5
+#  @since         : 24/01/2019
+
+# ******************************************************************************
+"""
 from Utility.utility_functional import Utility
 
 util = Utility()

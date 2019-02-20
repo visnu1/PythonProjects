@@ -1,3 +1,15 @@
+"""
+# ******************************************************************************
+
+#  Purpose        : To determine all the power of 2 as a table for upto the
+#                   exponential number given by the user
+#  @file          : leap_year.py
+#  @author        : vishnu <vishnu840ranjan@gmail.com>
+#  @version       : python 3.5
+#  @since         : 24/01/2019
+
+# ******************************************************************************
+"""
 from Utility.utility_functional import Utility
 
 util = Utility()

@@ -1,3 +1,4 @@
+"""
 # ******************************************************************************
 
 #  Purpose        : The no of times the coin to be flipped is provided by the user
@@ -9,8 +10,8 @@
 #  @since         : 24/01/2019
 
 # ******************************************************************************
+"""
 
-""" hello """
 from Utility.utility_functional import Utility
 
 util = Utility()
